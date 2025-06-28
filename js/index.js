@@ -1,19 +1,19 @@
 {
     "image_prompts": [
-        "modern minimalist laptop on white desk with plant",
-        "abstract digital network connection glowing blue",
-        "diverse business team collaborating in bright office",
-        "sleek mobile app interface with clean typography",
-        "cloud computing infrastructure with floating icons",
-        "professional developer coding on ultra-thin laptop",
-        "secure data center with glowing server racks",
-        "innovative dashboard UI with data visualization",
-        "business handshake with blurred city background",
-        "team brainstorming with sticky notes on glass wall",
-        "futuristic augmented reality interface overlay",
-        "clean workspace with notebook and digital tablet",
-        "global network connection points on dark background",
-        "cybersecurity concept with digital lock animation",
-        "artificial intelligence neural network visualization"
+        "modern minimalist laptop on white desk with clean interface",
+        "abstract digital network connection with glowing nodes",
+        "diverse team collaborating in bright modern office space",
+        "sleek smartphone showing app dashboard with analytics",
+        "cloud computing concept with floating servers and connections",
+        "professional developer working on ultra-thin laptop",
+        "innovative software interface with clean typography and icons",
+        "secure data encryption visualization with glowing locks",
+        "high-speed internet connection with abstract particles",
+        "modern office workspace with natural light and plants",
+        "business team celebrating successful project completion",
+        "futuristic technology concept with floating holograms",
+        "clean minimalist product photography with white background",
+        "data visualization dashboard with elegant charts and graphs",
+        "remote team video conference with smiling participants"
     ]
 }
