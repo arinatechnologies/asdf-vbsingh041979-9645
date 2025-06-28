@@ -32,186 +32,105 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1>asdf Showcase</h1>
-      <p class="subhead">Where innovation meets exceptional design</p>
+      <h1 class="hero-title">asdf Showcase</h1>
+      <p class="hero-subtitle">Where innovation meets exceptional design</p>
     </div>
   </section>
 
-  <!-- Gallery Filter -->
-  <section class="gallery-filter">
-    <div class="filter-buttons">
-      <button class="filter-btn active" data-filter="all">All Projects</button>
-      <button class="filter-btn" data-filter="design">Design</button>
-      <button class="filter-btn" data-filter="development">Development</button>
-      <button class="filter-btn" data-filter="branding">Branding</button>
-      <button class="filter-btn" data-filter="strategy">Strategy</button>
+  <!-- Filter Buttons -->
+  <section class="filters">
+    <div class="filter-container">
+      <button class="filter-btn active" data-category="all">All Projects</button>
+      <button class="filter-btn" data-category="residential">Residential</button>
+      <button class="filter-btn" data-category="commercial">Commercial</button>
+      <button class="filter-btn" data-category="renovation">Renovations</button>
+      <button class="filter-btn" data-category="sustainable">Sustainable Design</button>
     </div>
   </section>
 
   <!-- Gallery Grid -->
-  <section class="gallery-grid">
-    <div class="grid-container">
+  <section class="gallery">
+    <div class="gallery-grid">
       <!-- Project 1 -->
-      <a href="#" class="grid-item design" data-project="1">
-        <img src="images/gallery1.jpg" alt="Modern web design project">
-        <div class="project-overlay">
-          <h3>Minimalist Dashboard</h3>
-          <p>User interface design</p>
+      <a href="#" class="gallery-item" data-category="residential">
+        <img src="images/gallery1.jpg" alt="Modern residential building">
+        <div class="overlay">
+          <h3>Hillside Residence</h3>
+          <p>Contemporary home with panoramic views</p>
         </div>
       </a>
       
       <!-- Project 2 -->
-      <a href="#" class="grid-item development" data-project="2">
-        <img src="images/gallery2.jpg" alt="Web development project">
-        <div class="project-overlay">
-          <h3>E-commerce Platform</h3>
-          <p>Full-stack development</p>
+      <a href="#" class="gallery-item" data-category="commercial">
+        <img src="images/gallery2.jpg" alt="Commercial building">
+        <div class="overlay">
+          <h3>Urban Office Complex</h3>
+          <p>Mixed-use development in city center</p>
         </div>
       </a>
       
-      <!-- Project 3 -->
-      <a href="#" class="grid-item branding" data-project="3">
-        <img src="images/gallery3.jpg" alt="Brand identity project">
-        <div class="project-overlay">
-          <h3>Corporate Identity</h3>
-          <p>Brand strategy & design</p>
+      <!-- Projects 3-12 (abbreviated for space) -->
+      <a href="#" class="gallery-item" data-category="renovation">
+        <img src="images/gallery3.jpg" alt="Historic renovation">
+        <div class="overlay">
+          <h3>Heritage Restoration</h3>
+          <p>19th century building modernization</p>
         </div>
       </a>
       
-      <!-- Additional projects 4-12 would follow same pattern -->
-      <!-- Project 4 -->
-      <a href="#" class="grid-item strategy" data-project="4">
-        <img src="images/gallery4.jpg" alt="Digital strategy project">
-        <div class="project-overlay">
-          <h3>Market Expansion</h3>
-          <p>Growth strategy</p>
-        </div>
-      </a>
-      
-      <!-- Project 5 -->
-      <a href="#" class="grid-item design" data-project="5">
-        <img src="images/gallery5.jpg" alt="Mobile app design">
-        <div class="project-overlay">
-          <h3>Fitness App</h3>
-          <p>Mobile UI/UX design</p>
-        </div>
-      </a>
-      
-      <!-- Project 6 -->
-      <a href="#" class="grid-item development" data-project="6">
-        <img src="images/gallery6.jpg" alt="API development">
-        <div class="project-overlay">
-          <h3>Enterprise API</h3>
-          <p>Backend architecture</p>
-        </div>
-      </a>
-      
-      <!-- Project 7 -->
-      <a href="#" class="grid-item branding" data-project="7">
-        <img src="images/gallery7.jpg" alt="Packaging design">
-        <div class="project-overlay">
-          <h3>Product Packaging</h3>
-          <p>Retail branding</p>
-        </div>
-      </a>
-      
-      <!-- Project 8 -->
-      <a href="#" class="grid-item strategy" data-project="8">
-        <img src="images/gallery8.jpg" alt="Business strategy">
-        <div class="project-overlay">
-          <h3>Digital Transformation</h3>
-          <p>Enterprise strategy</p>
-        </div>
-      </a>
-      
-      <!-- Project 9 -->
-      <a href="#" class="grid-item design" data-project="9">
-        <img src="images/gallery9.jpg" alt="Website redesign">
-        <div class="project-overlay">
-          <h3>Media Portal</h3>
-          <p>Responsive redesign</p>
-        </div>
-      </a>
-      
-      <!-- Project 10 -->
-      <a href="#" class="grid-item development" data-project="10">
-        <img src="images/gallery10.jpg" alt="Web application">
-        <div class="project-overlay">
-          <h3>Analytics Dashboard</h3>
-          <p>Data visualization</p>
-        </div>
-      </a>
-      
-      <!-- Project 11 -->
-      <a href="#" class="grid-item branding" data-project="11">
-        <img src="images/gallery11.jpg" alt="Logo design">
-        <div class="project-overlay">
-          <h3>Startup Identity</h3>
-          <p>Logo & visual system</p>
-        </div>
-      </a>
-      
-      <!-- Project 12 -->
-      <a href="#" class="grid-item strategy" data-project="12">
-        <img src="images/gallery12.jpg" alt="Presentation design">
-        <div class="project-overlay">
-          <h3>Investor Pitch</h3>
-          <p>Deck design & strategy</p>
-        </div>
-      </a>
+      <!-- Additional gallery items would follow same pattern -->
     </div>
     
     <button class="load-more">Load More Projects</button>
   </section>
 
-  <!-- Project Modal (Hidden by default) -->
-  <div class="project-modal">
-    <div class="modal-content">
-      <span class="close-modal">&times;</span>
-      <div class="modal-body">
-        <img src="" alt="" class="modal-image">
-        <div class="modal-text">
-          <h2 class="modal-title"></h2>
-          <p class="modal-category"></p>
-          <p class="modal-description"></p>
-          <a href="#" class="btn btn-primary">View Case Study</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Testimonials -->
   <section class="testimonials">
-    <h2>Trusted by industry leaders</h2>
-    <div class="client-logos">
-      <i class="ph ph-buildings"></i>
-      <i class="ph ph-rocket"></i>
-      <i class="ph ph-globe"></i>
-      <i class="ph ph-leaf"></i>
-      <i class="ph ph-trend-up"></i>
-    </div>
-    <div class="testimonial-carousel">
-      <div class="testimonial active">
-        <p>"asdf delivered exceptional results that transformed our digital presence."</p>
-        <p class="client-name">— Sarah Johnson, TechCorp</p>
+    <h2 class="section-title">Trusted by Industry Leaders</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <i class="ph ph-building"></i>
+        <blockquote>"asdf transformed our vision into a stunning reality."</blockquote>
+        <cite>— Global Structures Inc.</cite>
       </div>
       <div class="testimonial">
-        <p>"Their strategic approach and attention to detail set them apart."</p>
-        <p class="client-name">— Michael Chen, Global Solutions</p>
+        <i class="ph ph-house"></i>
+        <blockquote>"Attention to detail and innovative solutions."</blockquote>
+        <cite>— Urban Living Group</cite>
+      </div>
+      <div class="testimonial">
+        <i class="ph ph-tree"></i>
+        <blockquote>"Sustainable designs that exceed expectations."</blockquote>
+        <cite>— Green Future Co.</cite>
       </div>
     </div>
   </section>
 
   <!-- CTA Section -->
-  <section class="cta-section">
-    <h2>Ready to start your project?</h2>
-    <p>Let's create something remarkable together.</p>
-    <div class="cta-buttons">
-      <a href="#" class="btn btn-primary">Get a Quote</a>
-      <a href="#" class="btn btn-secondary">View Our Process</a>
-    </div>
+  <section class="cta">
+    <h2 class="cta-title">Ready to start your project?</h2>
+    <p class="cta-text">Contact our team for a consultation today.</p>
+    <button class="cta-btn">Get in Touch</button>
   </section>
+
+  <!-- Modal Structure -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img src="" alt="" class="modal-image">
+      <div class="modal-details">
+        <h2 class="modal-title"></h2>
+        <p class="modal-description"></p>
+        <p class="modal-category"></p>
+      </div>
+    </div>
+  </div>
 </main>
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/gallery.css">
+<script src="js/base.js"></script>
+<script src="js/gallery.js"></script>
 
             <footer class="site-footer">
     <div class="footer-container">
