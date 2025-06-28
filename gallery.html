@@ -3,7 +3,7 @@
             <head>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>asdf | Home</title>
+            <title>asdf | Gallery</title>
             <link rel="stylesheet" href="css/base.css" />
             <link rel="stylesheet" href="css/gallery.css" />
             </head>
@@ -32,166 +32,182 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1 class="hero-title">asdf Showcase</h1>
-      <p class="hero-subtitle">Where innovation meets exceptional craftsmanship</p>
+      <h1>asdf Showcase</h1>
+      <p class="subhead">Explore our portfolio of exceptional work and innovative solutions</p>
     </div>
   </section>
 
-  <!-- Filter Buttons -->
-  <section class="filters">
-    <div class="filter-container">
-      <button class="filter-btn active" data-category="all">All Projects</button>
-      <button class="filter-btn" data-category="residential">Residential</button>
-      <button class="filter-btn" data-category="commercial">Commercial</button>
-      <button class="filter-btn" data-category="renovation">Renovations</button>
-      <button class="filter-btn" data-category="sustainable">Sustainable Design</button>
-      <button class="filter-btn" data-category="conceptual">Conceptual</button>
+  <!-- Gallery Filter -->
+  <section class="gallery-filter">
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+      <button class="filter-btn" data-filter="development">Development</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+      <button class="filter-btn" data-filter="consulting">Consulting</button>
     </div>
   </section>
 
-  <!-- Masonry Grid -->
+  <!-- Gallery Grid -->
   <section class="gallery-grid">
-    <a href="#" class="gallery-item residential" data-modal="project1">
-      <img src="images/gallery1.jpg" alt="Modern residential building">
-      <div class="item-overlay">
-        <h3>Hillside Residence</h3>
-        <p>Minimalist home with panoramic views</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item commercial" data-modal="project2">
-      <img src="images/gallery2.jpg" alt="Commercial office space">
-      <div class="item-overlay">
-        <h3>Urban Office Complex</h3>
-        <p>LEED-certified workspace design</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item renovation" data-modal="project3">
-      <img src="images/gallery3.jpg" alt="Historic building renovation">
-      <div class="item-overlay">
-        <h3>Heritage Restoration</h3>
-        <p>Preserving 19th century architecture</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item sustainable" data-modal="project4">
-      <img src="images/gallery4.jpg" alt="Sustainable home design">
-      <div class="item-overlay">
-        <h3>Eco Residence</h3>
-        <p>Net-zero energy dwelling</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item residential" data-modal="project5">
-      <img src="images/gallery5.jpg" alt="Luxury apartment interior">
-      <div class="item-overlay">
-        <h3>Skyline Apartment</h3>
-        <p>Penthouse with custom finishes</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item commercial" data-modal="project6">
-      <img src="images/gallery6.jpg" alt="Retail space design">
-      <div class="item-overlay">
-        <h3>Boutique Retail</h3>
-        <p>Flagship store experience</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item conceptual" data-modal="project7">
-      <img src="images/gallery7.jpg" alt="Futuristic city concept">
-      <div class="item-overlay">
-        <h3>Future Cityscape</h3>
-        <p>Urban planning concept 2050</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item renovation" data-modal="project8">
-      <img src="images/gallery8.jpg" alt="Industrial space conversion">
-      <div class="item-overlay">
-        <h3>Loft Conversion</h3>
-        <p>Warehouse to residential space</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item sustainable" data-modal="project9">
-      <img src="images/gallery9.jpg" alt="Green building materials">
-      <div class="item-overlay">
-        <h3>Sustainable Materials</h3>
-        <p>Innovative construction techniques</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item residential" data-modal="project10">
-      <img src="images/gallery10.jpg" alt="Countryside villa">
-      <div class="item-overlay">
-        <h3>Villa Serenity</h3>
-        <p>Harmony with natural landscape</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item commercial" data-modal="project11">
-      <img src="images/gallery11.jpg" alt="Hotel lobby design">
-      <div class="item-overlay">
-        <h3>Boutique Hotel</h3>
-        <p>Luxury hospitality space</p>
-      </div>
-    </a>
-    <a href="#" class="gallery-item conceptual" data-modal="project12">
-      <img src="images/gallery12.jpg" alt="Urban park concept">
-      <div class="item-overlay">
-        <h3>Community Park</h3>
-        <p>Public space revitalization</p>
-      </div>
-    </a>
+    <div class="grid-container">
+      <!-- Project 1 -->
+      <a href="#" class="grid-item design" data-project="1">
+        <img src="images/gallery1.jpg" alt="Modern web design project">
+        <div class="project-overlay">
+          <h3>Minimalist Dashboard</h3>
+          <p>UI/UX Design</p>
+        </div>
+      </a>
+      
+      <!-- Project 2 -->
+      <a href="#" class="grid-item development" data-project="2">
+        <img src="images/gallery2.jpg" alt="Web development project">
+        <div class="project-overlay">
+          <h3>E-commerce Platform</h3>
+          <p>Full-stack Development</p>
+        </div>
+      </a>
+      
+      <!-- Project 3 -->
+      <a href="#" class="grid-item branding" data-project="3">
+        <img src="images/gallery3.jpg" alt="Brand identity project">
+        <div class="project-overlay">
+          <h3>Corporate Identity</h3>
+          <p>Brand Strategy</p>
+        </div>
+      </a>
+      
+      <!-- Project 4 -->
+      <a href="#" class="grid-item design" data-project="4">
+        <img src="images/gallery4.jpg" alt="Mobile app design">
+        <div class="project-overlay">
+          <h3>Fitness App</h3>
+          <p>Mobile UI Design</p>
+        </div>
+      </a>
+      
+      <!-- Project 5 -->
+      <a href="#" class="grid-item consulting" data-project="5">
+        <img src="images/gallery5.jpg" alt="Consulting meeting">
+        <div class="project-overlay">
+          <h3>Digital Transformation</h3>
+          <p>Strategy Consulting</p>
+        </div>
+      </a>
+      
+      <!-- Project 6 -->
+      <a href="#" class="grid-item development" data-project="6">
+        <img src="images/gallery6.jpg" alt="Code editor">
+        <div class="project-overlay">
+          <h3>API Framework</h3>
+          <p>Backend Development</p>
+        </div>
+      </a>
+      
+      <!-- Project 7 -->
+      <a href="#" class="grid-item branding" data-project="7">
+        <img src="images/gallery7.jpg" alt="Packaging design">
+        <div class="project-overlay">
+          <h3>Product Packaging</h3>
+          <p>Brand Experience</p>
+        </div>
+      </a>
+      
+      <!-- Project 8 -->
+      <a href="#" class="grid-item design" data-project="8">
+        <img src="images/gallery8.jpg" alt="Website design">
+        <div class="project-overlay">
+          <h3>Portfolio Website</h3>
+          <p>Web Design</p>
+        </div>
+      </a>
+      
+      <!-- Project 9 -->
+      <a href="#" class="grid-item development" data-project="9">
+        <img src="images/gallery9.jpg" alt="Database architecture">
+        <div class="project-overlay">
+          <h3>Data Infrastructure</h3>
+          <p>System Architecture</p>
+        </div>
+      </a>
+      
+      <!-- Project 10 -->
+      <a href="#" class="grid-item consulting" data-project="10">
+        <img src="images/gallery10.jpg" alt="Team workshop">
+        <div class="project-overlay">
+          <h3>Process Optimization</h3>
+          <p>Business Consulting</p>
+        </div>
+      </a>
+      
+      <!-- Project 11 -->
+      <a href="#" class="grid-item design" data-project="11">
+        <img src="images/gallery11.jpg" alt="Illustration work">
+        <div class="project-overlay">
+          <h3>Digital Illustrations</h3>
+          <p>Graphic Design</p>
+        </div>
+      </a>
+      
+      <!-- Project 12 -->
+      <a href="#" class="grid-item branding" data-project="12">
+        <img src="images/gallery12.jpg" alt="Brand guidelines">
+        <div class="project-overlay">
+          <h3>Visual Identity</h3>
+          <p>Brand Guidelines</p>
+        </div>
+      </a>
+    </div>
+    
+    <button class="load-more">Load More Projects</button>
   </section>
-
-  <!-- Load More Button -->
-  <div class="load-more-container">
-    <button class="load-more-btn">Load More Projects</button>
-  </div>
 
   <!-- Testimonials -->
   <section class="testimonials">
-    <h2 class="section-title">Trusted by Industry Leaders</h2>
-    <div class="testimonial-grid">
-      <div class="testimonial">
-        <i class="ph ph-building"></i>
-        <blockquote>"asdf transformed our vision into a breathtaking reality with unparalleled attention to detail."</blockquote>
-        <cite>— Global Structures Inc.</cite>
-      </div>
-      <div class="testimonial">
-        <i class="ph ph-house"></i>
-        <blockquote>"The residential designs exceeded our expectations in both form and functionality."</blockquote>
-        <cite>— Luxury Living Developers</cite>
-      </div>
-      <div class="testimonial">
-        <i class="ph ph-leaf"></i>
-        <blockquote>"Their sustainable approach to commercial spaces is revolutionizing our industry."</blockquote>
-        <cite>— EcoFuture Consortium</cite>
-      </div>
+    <h2>Trusted by industry leaders</h2>
+    <div class="client-logos">
+      <span class="ph ph-buildings"></span>
+      <span class="ph ph-rocket"></span>
+      <span class="ph ph-globe"></span>
+      <span class="ph ph-leaf"></span>
+      <span class="ph ph-trend-up"></span>
+    </div>
+    <div class="testimonial-quotes">
+      <blockquote>
+        "asdf delivered exceptional results that transformed our digital presence."
+        <cite>— TechCorp CEO</cite>
+      </blockquote>
     </div>
   </section>
 
   <!-- CTA Section -->
   <section class="cta">
     <div class="cta-content">
-      <h2 class="cta-title">Ready to bring your vision to life?</h2>
-      <p class="cta-text">Contact our team to discuss your next project</p>
-      <button class="cta-btn">Get in Touch</button>
+      <h2>Ready to start your project?</h2>
+      <p>Contact us today to discuss how we can bring your vision to life.</p>
+      <a href="#" class="cta-button">Get in touch</a>
     </div>
   </section>
 
-  <!-- Project Modal (Hidden) -->
-  <div class="modal" id="projectModal">
+  <!-- Project Modal (Hidden by default) -->
+  <div class="project-modal" id="projectModal">
     <div class="modal-content">
-      <button class="modal-close">&times;</button>
+      <button class="close-modal">&times;</button>
       <div class="modal-body">
         <img src="" alt="" class="modal-image">
-        <div class="modal-details">
+        <div class="modal-text">
           <h2 class="modal-title"></h2>
+          <p class="modal-category"></p>
           <p class="modal-description"></p>
-          <div class="modal-meta">
-            <span class="modal-category"></span>
-            <span class="modal-year"></span>
-          </div>
+          <a href="#" class="modal-link">View Case Study</a>
         </div>
       </div>
     </div>
   </div>
 </main>
 
+<!-- External Resources -->
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/gallery.css">
 <script src="js/base.js"></script>
