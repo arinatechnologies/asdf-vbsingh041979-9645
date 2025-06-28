@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>asdf | Home</title>
+            <link rel="stylesheet" href="css/base.css" />
+            <link rel="stylesheet" href="css/gallery.css" />
+            </head>
+            <body>
+            <header class="site-header">
+    <div class="header-container">
+        <a href="index.html" class="logo">asdf</a>
+        
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        
+        <nav class="main-nav">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+            <main class="gallery-page">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">asdf Showcase</h1>
+      <p class="hero-subtitle">Where innovation meets exceptional craftsmanship</p>
+    </div>
+  </section>
+
+  <!-- Filter Buttons -->
+  <section class="filters">
+    <div class="filter-container">
+      <button class="filter-btn active" data-category="all">All Projects</button>
+      <button class="filter-btn" data-category="residential">Residential</button>
+      <button class="filter-btn" data-category="commercial">Commercial</button>
+      <button class="filter-btn" data-category="renovation">Renovations</button>
+      <button class="filter-btn" data-category="sustainable">Sustainable Design</button>
+      <button class="filter-btn" data-category="conceptual">Conceptual</button>
+    </div>
+  </section>
+
+  <!-- Masonry Grid -->
+  <section class="gallery-grid">
+    <a href="#" class="gallery-item residential" data-modal="project1">
+      <img src="images/gallery1.jpg" alt="Modern residential building">
+      <div class="item-overlay">
+        <h3>Hillside Residence</h3>
+        <p>Minimalist home with panoramic views</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item commercial" data-modal="project2">
+      <img src="images/gallery2.jpg" alt="Commercial office space">
+      <div class="item-overlay">
+        <h3>Urban Office Complex</h3>
+        <p>LEED-certified workspace design</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item renovation" data-modal="project3">
+      <img src="images/gallery3.jpg" alt="Historic building renovation">
+      <div class="item-overlay">
+        <h3>Heritage Restoration</h3>
+        <p>Preserving 19th century architecture</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item sustainable" data-modal="project4">
+      <img src="images/gallery4.jpg" alt="Sustainable home design">
+      <div class="item-overlay">
+        <h3>Eco Residence</h3>
+        <p>Net-zero energy dwelling</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item residential" data-modal="project5">
+      <img src="images/gallery5.jpg" alt="Luxury apartment interior">
+      <div class="item-overlay">
+        <h3>Skyline Apartment</h3>
+        <p>Penthouse with custom finishes</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item commercial" data-modal="project6">
+      <img src="images/gallery6.jpg" alt="Retail space design">
+      <div class="item-overlay">
+        <h3>Boutique Retail</h3>
+        <p>Flagship store experience</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item conceptual" data-modal="project7">
+      <img src="images/gallery7.jpg" alt="Futuristic city concept">
+      <div class="item-overlay">
+        <h3>Future Cityscape</h3>
+        <p>Urban planning concept 2050</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item renovation" data-modal="project8">
+      <img src="images/gallery8.jpg" alt="Industrial space conversion">
+      <div class="item-overlay">
+        <h3>Loft Conversion</h3>
+        <p>Warehouse to residential space</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item sustainable" data-modal="project9">
+      <img src="images/gallery9.jpg" alt="Green building materials">
+      <div class="item-overlay">
+        <h3>Sustainable Materials</h3>
+        <p>Innovative construction techniques</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item residential" data-modal="project10">
+      <img src="images/gallery10.jpg" alt="Countryside villa">
+      <div class="item-overlay">
+        <h3>Villa Serenity</h3>
+        <p>Harmony with natural landscape</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item commercial" data-modal="project11">
+      <img src="images/gallery11.jpg" alt="Hotel lobby design">
+      <div class="item-overlay">
+        <h3>Boutique Hotel</h3>
+        <p>Luxury hospitality space</p>
+      </div>
+    </a>
+    <a href="#" class="gallery-item conceptual" data-modal="project12">
+      <img src="images/gallery12.jpg" alt="Urban park concept">
+      <div class="item-overlay">
+        <h3>Community Park</h3>
+        <p>Public space revitalization</p>
+      </div>
+    </a>
+  </section>
+
+  <!-- Load More Button -->
+  <div class="load-more-container">
+    <button class="load-more-btn">Load More Projects</button>
+  </div>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2 class="section-title">Trusted by Industry Leaders</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <i class="ph ph-building"></i>
+        <blockquote>"asdf transformed our vision into a breathtaking reality with unparalleled attention to detail."</blockquote>
+        <cite>— Global Structures Inc.</cite>
+      </div>
+      <div class="testimonial">
+        <i class="ph ph-house"></i>
+        <blockquote>"The residential designs exceeded our expectations in both form and functionality."</blockquote>
+        <cite>— Luxury Living Developers</cite>
+      </div>
+      <div class="testimonial">
+        <i class="ph ph-leaf"></i>
+        <blockquote>"Their sustainable approach to commercial spaces is revolutionizing our industry."</blockquote>
+        <cite>— EcoFuture Consortium</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="cta-content">
+      <h2 class="cta-title">Ready to bring your vision to life?</h2>
+      <p class="cta-text">Contact our team to discuss your next project</p>
+      <button class="cta-btn">Get in Touch</button>
+    </div>
+  </section>
+
+  <!-- Project Modal (Hidden) -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="modal-body">
+        <img src="" alt="" class="modal-image">
+        <div class="modal-details">
+          <h2 class="modal-title"></h2>
+          <p class="modal-description"></p>
+          <div class="modal-meta">
+            <span class="modal-category"></span>
+            <span class="modal-year"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/gallery.css">
+<script src="js/base.js"></script>
+<script src="js/gallery.js"></script>
+
+            <footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-links">
+            <ul class="social-links">
+                <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                <li><a href="#" aria-label="Twitter">Twitter</a></li>
+            </ul>
+            
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-info">
+            <p>&copy; <span id="year"></span> asdf. All rights reserved.</p>
+            <address>123 Example Street, San Francisco, CA 94107</address>
+        </div>
+    </div>
+</footer>
+
+            <script src="js/base.js"></script>
+            <script src="js/gallery.js"></script>
+            </body>
+            </html>
+            
